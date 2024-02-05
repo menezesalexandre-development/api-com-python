@@ -2,6 +2,7 @@
 import pandas as pd
 from flask import Flask, jsonify
 
+<<<<<<< Updated upstream
 app = Flask(__name__)
 
 @app.route('/')
@@ -21,3 +22,6 @@ def vendas():
 
 
 app.run(host='0.0.0.0')
+=======
+
+>>>>>>> Stashed changes
